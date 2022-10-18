@@ -1,10 +1,20 @@
 body{
     background-color: rgb(235, 178, 246);
     text-align: center;
+    font-size: larger;
 }
 h1{
     color: rgb(127, 151, 151);
 }
 h2{
     color: blueviolet;
+}
+h3{
+    color: coral;
+}
+h4{
+    color: darksalmon;
+}
+h5{
+    color: azure;
 }
