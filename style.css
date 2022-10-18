@@ -2,6 +2,9 @@ body{
     background-color: rgb(235, 178, 246);
     text-align: center;
     font-size: larger;
+    font-weight: bold;
+    border: 2px solid black;
+    padding:30px black;
 }
 h1{
     color: rgb(127, 151, 151);
@@ -16,5 +19,5 @@ h4{
     color: darksalmon;
 }
 h5{
-    color: azure;
+    color: rgb(109, 190, 190);
 }
