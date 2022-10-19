@@ -1,13 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 body{
-    background-color: rgb(235, 178, 246);
+    background-color: rgb(247, 240, 247);
     text-align: center;
     font-size: larger;
     font-weight: bold;
-    border: 2px solid black;
     padding:30px black;
+    font-family: 'Poppins';
+    background: url(https://images.pexels.com/photos/1633689/pexels-photo-1633689.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
 }
 h1{
-    color: rgb(127, 151, 151);
+    color: blueviolet;
 }
 h2{
     color: blueviolet;
@@ -20,4 +24,16 @@ h4{
 }
 h5{
     color: rgb(109, 190, 190);
+}
+.round{
+    margin: auto;
+   align-content: center;
+    border: 2px solid black;
+    border-radius: 50%;
+    height:350px;
+    width:350px;
+   
+}
+.round:hover{
+    background: url(https://images.pexels.com/photos/1454752/pexels-photo-1454752.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 }
