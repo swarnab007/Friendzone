@@ -11,10 +11,10 @@ body{
     background-size: cover;
 }
 h1{
-    color: blueviolet;
+    color:black;
 }
 h2{
-    color: blueviolet;
+    color: black;
 }
 h3{
     color: coral;
@@ -30,10 +30,34 @@ h5{
    align-content: center;
     border: 2px solid black;
     border-radius: 50%;
-    height:350px;
-    width:350px;
+    height:300px;
+    width:300px;
+    margin-top: 20px;
    
 }
 .round:hover{
     background: url(https://images.pexels.com/photos/1454752/pexels-photo-1454752.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    transition-timing-function: linear;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 22px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: rgb(25, 128, 237);
+  }
