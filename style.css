@@ -8,6 +8,8 @@ body{
     font-family: 'Poppins';
     background: url(https://images.pexels.com/photos/1633689/pexels-photo-1633689.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-size: cover;
+    color:antiquewhite;
+    font-weight: bolder;
 }
 h1{
     color:black;
